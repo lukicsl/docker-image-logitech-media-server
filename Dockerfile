@@ -1,4 +1,4 @@
-FROM debian
+FROM ubuntu:xenial
 MAINTAINER Slavisa Lukic<lukic@gmx.ch>
 
 ENV SQUEEZE_VOL /srv/squeezebox
