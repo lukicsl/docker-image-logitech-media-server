@@ -1,5 +1,5 @@
-FROM ubuntu:xenial
-MAINTAINER Lars Kellogg-Stedman <lars@oddbit.com>
+FROM ubuntu
+MAINTAINER Slavisa Lukic<lukic@gmx.ch>
 
 ENV SQUEEZE_VOL /srv/squeezebox
 ENV LANG C.UTF-8
