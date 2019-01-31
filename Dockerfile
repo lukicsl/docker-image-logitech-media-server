@@ -19,7 +19,7 @@ RUN apt-get update && \
 		&& \
 	apt-get clean
 
-RUN url=$(curl "$PACKAGE_VERSION_URL" | sed 's/_all\.deb/_amd64\.deb/') && \
+RUN url=$(curl "$PACKAGE_VERSION_URL" | sed 's/_all\.deb/_arm\.deb/') && \
 	curl -Lsf -o /tmp/logitechmediaserver.deb $url && \
 	dpkg -i /tmp/logitechmediaserver.deb && \
 	rm -f /tmp/logitechmediaserver.deb && \
